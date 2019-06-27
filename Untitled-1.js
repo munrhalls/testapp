@@ -1,7 +1,11 @@
+var b = 0; 
+var a = b * 2;
+
+
 function appendParagraph() {
   var node = document.createElement('div');
  
-  var textnode = document.createTextNode('This is my page'); 
+  var textnode = document.createTextNode(a); 
     node.appendChild(textnode); 
 
   var body = document.getElementById('body');
