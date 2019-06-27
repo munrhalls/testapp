@@ -21,4 +21,4 @@ function handleMouseDown(e) {
 
   pad.appendChild(container);
 }
-pad.addEventListener('mousedown', handleMouseDown, true);
+pad.addEventListener('mousemove', handleMouseDown, true);
