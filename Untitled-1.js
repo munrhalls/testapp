@@ -5,8 +5,8 @@ function handleMouseDown(e) {
     container.style.background = "#000";
     container.style.borderRadius = "100%;"
 
-    container.style.width = "1px";
-    container.style.height = "1px";
+    container.style.width = "3px";
+    container.style.height = "3px";
     container.style.padding = "0";
     
     container.style.position = 'absolute';
