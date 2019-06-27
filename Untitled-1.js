@@ -2,9 +2,13 @@ let pad = document.getElementById('pad');
 
 function handleMouseDown(e) {
   var container = document.createElement('div');
+    container.style.background = "#000";
+    container.style.borderRadius = "100%;"
+
     container.style.width = "1px";
     container.style.height = "1px";
     container.style.padding = "0";
+    
     container.style.position = 'absolute';
     container.style.top = e.clientY + 'px';
     container.style.left = e.clientX + 'px';
